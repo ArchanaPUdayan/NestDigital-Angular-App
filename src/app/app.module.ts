@@ -8,6 +8,7 @@ import { EmployeeComponent } from './employee/employee.component';
 import { EmployeeRegistrationComponent } from './employee-registration/employee-registration.component';
 import { ViewfrdsComponent } from './viewfrds/viewfrds.component';
 import { ViewcousesComponent } from './viewcouses/viewcouses.component';
+import { NavigationComponent } from './navigation/navigation.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { ViewcousesComponent } from './viewcouses/viewcouses.component';
     EmployeeComponent,
     EmployeeRegistrationComponent,
     ViewfrdsComponent,
-    ViewcousesComponent
+    ViewcousesComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
