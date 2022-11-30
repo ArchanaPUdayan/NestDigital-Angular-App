@@ -10,6 +10,7 @@ import { ViewfrdsComponent } from './viewfrds/viewfrds.component';
 import { ViewcousesComponent } from './viewcouses/viewcouses.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
+import { GalleryComponent } from './gallery/gallery.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { HomeComponent } from './home/home.component';
     ViewfrdsComponent,
     ViewcousesComponent,
     NavigationComponent,
-    HomeComponent
+    HomeComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
