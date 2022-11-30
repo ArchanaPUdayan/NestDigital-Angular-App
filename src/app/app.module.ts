@@ -7,13 +7,15 @@ import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { EmployeeRegistrationComponent } from './employee-registration/employee-registration.component';
 import { ViewfrdsComponent } from './viewfrds/viewfrds.component';
+import { ViewcousesComponent } from './viewcouses/viewcouses.component';
 @NgModule({
   declarations: [
     AppComponent,
     AdminloginComponent,
     EmployeeComponent,
     EmployeeRegistrationComponent,
-    ViewfrdsComponent
+    ViewfrdsComponent,
+    ViewcousesComponent
   ],
   imports: [
     BrowserModule,
