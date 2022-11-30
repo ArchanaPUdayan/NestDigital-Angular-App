@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +13,35 @@ import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { RoutingComponent } from './routing/routing.component';
+import { RouterModule, Routes } from '@angular/router';
+const myRoute:Routes=[
+  {
+    path:"",
+    component:HomeComponent
+  },
+  {
+    path:"Gallery",
+  component:GalleryComponent
+  },
+  {
+    path:"Contact",
+    component:ContactusComponent
+  },
+  {
+    path:"About",
+    component:AboutusComponent
+  },
+  {
+    path:"Admin",
+    component:AdminloginComponent
+  },
+  {
+    path:"Employee",
+    component:EmployeeComponent
+  }
+]
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,11 +54,13 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     HomeComponent,
     GalleryComponent,
     ContactusComponent,
-    AboutusComponent
+    AboutusComponent,
+    RoutingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(myRoute)
   ],
   providers: [],
   bootstrap: [AppComponent]
