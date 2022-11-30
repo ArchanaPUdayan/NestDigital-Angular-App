@@ -11,6 +11,7 @@ import { ViewcousesComponent } from './viewcouses/viewcouses.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ContactusComponent } from './contactus/contactus.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     ViewcousesComponent,
     NavigationComponent,
     HomeComponent,
-    GalleryComponent
+    GalleryComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
