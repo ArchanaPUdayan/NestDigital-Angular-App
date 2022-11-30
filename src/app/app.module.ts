@@ -9,6 +9,7 @@ import { EmployeeRegistrationComponent } from './employee-registration/employee-
 import { ViewfrdsComponent } from './viewfrds/viewfrds.component';
 import { ViewcousesComponent } from './viewcouses/viewcouses.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { NavigationComponent } from './navigation/navigation.component';
     EmployeeRegistrationComponent,
     ViewfrdsComponent,
     ViewcousesComponent,
-    NavigationComponent
+    NavigationComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
